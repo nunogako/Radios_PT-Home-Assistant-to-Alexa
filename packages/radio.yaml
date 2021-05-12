@@ -1,0 +1,1107 @@
+homeassistant:
+
+script:
+
+  radio_comercial_echo_dot_sala:
+    alias: Radio Comercial echo_dot_sala
+    sequence:
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.echo_dot_sala
+          volume_level: '0.20'
+      - service: media_player.play_media
+        data_template:
+          entity_id: media_player.echo_dot_sala
+          media_content_id: Radio Comercial
+          media_content_type: TUNEIN
+
+  radio_comercial_echo_dot_cozinha:
+    alias: Radio Comercial echo_dot_cozinha
+    sequence:
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.echo_dot_cozinha
+          volume_level: '0.20'
+      - service: media_player.play_media
+        data_template:
+          entity_id: media_player.echo_dot_cozinha
+          media_content_id: Radio Comercial
+          media_content_type: TUNEIN
+
+  radio_comercial_echo_dot_quarto:
+    alias: Radio Comercial echo_dot_quarto
+    sequence:
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.echo_dot_quarto
+          volume_level: '0.20'
+      - service: media_player.play_media
+        data_template:
+          entity_id: media_player.echo_dot_quarto
+          media_content_id: Radio Comercial
+          media_content_type: TUNEIN
+
+  radio_comercial_home_group:
+    alias: Radio Comercial home_group
+    sequence:
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.home_group
+          volume_level: '0.20'
+      - service: media_player.play_media
+        data_template:
+          entity_id: media_player.home_group
+          media_content_id: Radio Comercial
+          media_content_type: TUNEIN
+
+#m80
+
+  m80_echo_dot_sala:
+    alias: M80 echo_dot_sala
+    sequence:
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.echo_dot_sala
+          volume_level: '0.20'
+      - service: media_player.play_media
+        data_template:
+          entity_id: media_player.echo_dot_sala
+          media_content_id: M80-Rádio
+          media_content_type: TUNEIN
+
+  m80_echo_dot_cozinha:
+    alias: M80 echo_dot_cozinha
+    sequence:
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.echo_dot_cozinha
+          volume_level: '0.20'
+      - service: media_player.play_media
+        data_template:
+          entity_id: media_player.echo_dot_cozinha
+          media_content_id: M80-Rádio
+          media_content_type: TUNEIN
+
+  m80_echo_dot_quarto:
+    alias: M80 echo_dot_quarto
+    sequence:
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.echo_dot_quarto
+          volume_level: '0.20'
+      - service: media_player.play_media
+        data_template:
+          entity_id: media_player.echo_dot_quarto
+          media_content_id: M80-Rádio
+          media_content_type: TUNEIN
+
+  m80_home_group:
+    alias: M80 home_group
+    sequence:
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.home_group
+          volume_level: '0.20'
+      - service: media_player.play_media
+        data_template:
+          entity_id: media_player.home_group
+          media_content_id: M80-Rádio
+          media_content_type: TUNEIN
+
+#vodafone
+
+  vodafone_echo_dot_sala:
+    alias: Vodafone echo_dot_sala
+    sequence:
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.echo_dot_sala
+          volume_level: '0.20'
+      - service: media_player.play_media
+        data_template:
+          entity_id: media_player.echo_dot_sala
+          media_content_id: Rádio Vodafone.fm
+          media_content_type: TUNEIN
+
+  vodafone_echo_dot_cozinha:
+    alias: Vodafone echo_dot_cozinha
+    sequence:
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.echo_dot_cozinha
+          volume_level: '0.20'
+      - service: media_player.play_media
+        data_template:
+          entity_id: media_player.echo_dot_cozinha
+          media_content_id: Rádio Vodafone.fm
+          media_content_type: TUNEIN
+
+  vodafone_echo_dot_quarto:
+    alias: Vodafone echo_dot_quarto
+    sequence:
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.echo_dot_quarto
+          volume_level: '0.20'
+      - service: media_player.play_media
+        data_template:
+          entity_id: media_player.echo_dot_quarto
+          media_content_id: Rádio Vodafone.fm
+          media_content_type: TUNEIN
+
+  vodafone_home_group:
+    alias: Vodafone home_group
+    sequence:
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.home_group
+          volume_level: '0.20'
+      - service: media_player.play_media
+        data_template:
+          entity_id: media_player.home_group
+          media_content_id: Rádio Vodafone.fm
+          media_content_type: TUNEIN
+
+#rfm
+
+  rfm_echo_dot_sala:
+    alias: RFM echo_dot_sala
+    sequence:
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.echo_dot_sala
+          volume_level: '0.20'
+      - service: media_player.play_media
+        data_template:
+          entity_id: media_player.echo_dot_sala
+          media_content_id: portugal rfm
+          media_content_type: TUNEIN
+
+  rfm_echo_dot_cozinha:
+    alias: RFM echo_dot_cozinha
+    sequence:
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.echo_dot_cozinha
+          volume_level: '0.20'
+      - service: media_player.play_media
+        data_template:
+          entity_id: media_player.echo_dot_cozinha
+          media_content_id: portugal rfm
+          media_content_type: TUNEIN
+
+  rfm_echo_dot_quarto:
+    alias: RFM echo_dot_quarto
+    sequence:
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.echo_dot_quarto
+          volume_level: '0.20'
+      - service: media_player.play_media
+        data_template:
+          entity_id: media_player.echo_dot_quarto
+          media_content_id: portugal rfm
+          media_content_type: TUNEIN
+
+  rfm_home_group:
+    alias: RFM home_group
+    sequence:
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.home_group
+          volume_level: '0.20'
+      - service: media_player.play_media
+        data_template:
+          entity_id: media_player.home_group
+          media_content_id: portugal rfm
+          media_content_type: TUNEIN
+
+#Cidade FM
+
+  cidadefm_echo_dot_sala:
+    alias: Cidade FM echo_dot_sala
+    sequence:
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.echo_dot_sala
+          volume_level: '0.20'
+      - service: media_player.play_media
+        data_template:
+          entity_id: media_player.echo_dot_sala
+          media_content_id: cidade FM
+          media_content_type: 'TUNEIN'   
+
+#TSF
+
+  tsf_echo_dot_sala:
+    alias: TSF echo_dot_sala
+    sequence:
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.echo_dot_sala
+          volume_level: '0.20'
+      - service: media_player.play_media
+        data_template:
+          entity_id: media_player.echo_dot_sala
+          media_content_id: TSF Radio Noticias
+          media_content_type: 'TUNEIN' 
+ 
+#Mega Hits
+
+  megahits_echo_dot_sala:
+    alias: Mega Hits echo_dot_sala
+    sequence:
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.echo_dot_sala
+          volume_level: '0.20'
+      - service: media_player.play_media
+        data_template:
+          entity_id: media_player.echo_dot_sala
+          media_content_id: Mega-Hits
+          media_content_type: 'TUNEIN' 
+
+#Nova Era
+
+  novaera_echo_dot_sala:
+    alias: Nova Era echo_dot_sala
+    sequence:
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.echo_dot_sala
+          volume_level: '0.20'
+      - service: media_player.play_media
+        data_template:
+          entity_id: media_player.echo_dot_sala
+          media_content_id: Radio-Nova-Era
+          media_content_type: 'TUNEIN' 
+
+  radio_stop_echo_dot_sala:
+    alias: Parar rádio echo_dot_sala
+    sequence:
+      - service: media_player.media_stop
+        data:
+          entity_id: media_player.echo_dot_sala
+
+  radio_stop_echo_dot_cozinha:
+    alias: Parar rádio echo_dot_cozinha
+    sequence:
+      - service: media_player.media_stop
+        data:
+          entity_id: media_player.echo_dot_cozinha
+
+  radio_stop_echo_dot_quarto:
+    alias: Parar rádio echo_dot_quarto
+    sequence:
+      - service: media_player.media_stop
+        data:
+          entity_id: media_player.echo_dot_quarto
+
+  radio_stop_home_group:
+    alias: Parar rádio home_group
+    sequence:
+      - service: media_player.media_stop
+        data:
+          entity_id: media_player.home_group
+
+###############################################################################
+#                                                                             #
+#                       I N P U T _ B O O L E A N                             #
+#                                                                             #
+############################################################################### 
+input_boolean:
+  ligar_radio:
+    name: Rádio Status
+
+  home_group:
+    name: Som home_group
+
+  ouvir_radio_echo_dot_sala:
+    name: Ouvir rádio na echo_dot_sala
+###############################################################################
+#                                                                             #
+#                     I N P U T _ D A T E T I M E                             #
+#                                                                             #
+###############################################################################
+input_datetime:
+  radio_on:
+    name: "Ligar rádio às"
+    has_date: false
+    has_time: true
+
+###############################################################################
+#                                                                             #
+#                     I N P U T _ N U M B E R                                 #
+#                                                                             #
+###############################################################################
+input_number:
+  echo_dot_sala_volume:
+    icon: mdi:volume-medium
+    name: Volume
+    min: 1
+    max: 100
+    step: 1
+
+  echo_dot_cozinha_volume:
+    icon: mdi:volume-medium
+    name: Volume
+    min: 1
+    max: 100
+    step: 1
+    
+  echo_dot_quarto_volume:
+    icon: mdi:volume-medium
+    name: Volume
+    min: 1
+    max: 100
+    step: 1
+
+  home_group_volume:
+    icon: mdi:volume-medium
+    name: Volume
+    min: 1
+    max: 100
+    step: 1
+###############################################################################
+#                                                                             #
+#                               S E N S O R                                   #
+#                                                                             #
+###############################################################################
+sensor:
+
+  - platform: template
+    sensors:
+      estacoes_radio_echo_dot_sala:
+        friendly_name: 'Estações radio echo_dot_sala'
+        value_template: >
+          {%- if states.media_player.echo_dot_sala.attributes.media_title == "Radio Comercial" %}
+            Comercial
+          {% elif states.media_player.echo_dot_sala.attributes.media_title == "Vodafone.fm" %}
+            Vodafone
+          {% elif states.media_player.echo_dot_sala.attributes.media_title == "M80 Rádio" %}
+            M80
+          {% elif states.media_player.echo_dot_sala.attributes.media_title == "RFM" %}
+            RFM
+          {% elif states.media_player.echo_dot_sala.attributes.media_title == "Cidade fm" %}
+            CidadeFM
+          {% elif states.media_player.echo_dot_sala.attributes.media_title == "TSF Radio Noticias" %}
+            TSFRadioNoticias          
+          {% elif states.media_player.echo_dot_sala.attributes.media_title == "Mega Hits" %}  
+            MegaHits
+          {% elif states.media_player.echo_dot_sala.attributes.media_title == "Radio Nova Era" %}
+            NovaEra
+          {% else %}
+            Desligado
+          {%- endif %}
+
+  - platform: template
+    sensors:
+      estacoes_radio_echo_dot_cozinha:
+        friendly_name: 'Estações radio echo_dot_cozinha'
+        value_template: >
+          {%- if states.media_player.echo_dot_cozinha.attributes.media_title == "Radio Comercial" %}
+            Comercial
+          {% elif states.media_player.echo_dot_cozinha.attributes.media_title == "Vodafone.fm" %}
+            Vodafone
+          {% elif states.media_player.echo_dot_cozinha.attributes.media_title == "M80 Rádio" %}
+            M80
+          {% elif states.media_player.echo_dot_cozinha.attributes.media_title == "RFM" %}
+            RFM
+          {% elif states.media_player.echo_dot_sala.attributes.media_title == "Cidade fm" %}
+            CidadeFM
+          {% elif states.media_player.echo_dot_sala.attributes.media_title == "TSF Radio Noticias" %}
+            TSFRadioNoticias          
+          {% elif states.media_player.echo_dot_sala.attributes.media_title == "Mega Hits" %}  
+            MegaHits
+          {% elif states.media_player.echo_dot_sala.attributes.media_title == "Radio Nova Era" %}
+            NovaEra
+          {% else %}
+            Desligado
+          {%- endif %}
+
+  - platform: template
+    sensors:
+      estacoes_radio_echo_dot_quarto:
+        friendly_name: 'Estações radio echo_dot_quarto'
+        value_template: >
+          {%- if states.media_player.echo_dot_quarto.attributes.media_title == "Radio Comercial" %}
+            Comercial
+          {% elif states.media_player.echo_dot_quarto.attributes.media_title == "Vodafone.fm" %}
+            Vodafone
+          {% elif states.media_player.echo_dot_quarto.attributes.media_title == "M80 Rádio" %}
+            M80
+          {% elif states.media_player.echo_dot_quarto.attributes.media_title == "RFM" %}
+            RFM
+          {% elif states.media_player.echo_dot_sala.attributes.media_title == "Cidade fm" %}
+            CidadeFM
+          {% elif states.media_player.echo_dot_sala.attributes.media_title == "TSF Radio Noticias" %}
+            TSFRadioNoticias          
+          {% elif states.media_player.echo_dot_sala.attributes.media_title == "Mega Hits" %}  
+            MegaHits
+          {% elif states.media_player.echo_dot_sala.attributes.media_title == "Radio Nova Era" %}
+            NovaEra
+          {% else %}
+            Desligado
+          {%- endif %}
+
+  - platform: template
+    sensors:
+      estacoes_radio_home_group:
+        friendly_name: 'Estações radio home_group'
+        value_template: >
+          {%- if states.media_player.home_group.attributes.media_title == "Radio Comercial" %}
+            Comercial home_group
+          {% elif states.media_player.home_group.attributes.media_title == "Vodafone.fm" %}
+            Vodafone home_group
+          {% elif states.media_player.home_group.attributes.media_title == "M80 Rádio" %}
+            M80 home_group
+          {% elif states.media_player.home_group.attributes.media_title == "RFM" %}
+            RFM home_group
+          {% elif states.media_player.echo_dot_sala.attributes.media_title == "Cidade fm" %}
+            CidadeFM
+          {% elif states.media_player.echo_dot_sala.attributes.media_title == "TSF Radio Noticias" %}
+            TSFRadioNoticias          
+          {% elif states.media_player.echo_dot_sala.attributes.media_title == "Mega Hits" %}  
+            MegaHits
+          {% elif states.media_player.echo_dot_sala.attributes.media_title == "Radio Nova Era" %}
+            NovaEra
+          {% else %}
+            Desligado
+          {%- endif %}
+
+
+  - platform: template
+    sensors:
+      echo_dot_sala_volume:
+        value_template: >
+          {% if is_state('media_player.echo_dot_sala', 'on')  %}
+            {{ (state_attr('media_player.echo_dot_sala', 'volume_level') * 100) | int }}
+          {% endif %}
+        friendly_name: Receiver Volume Level
+        icon_template: mdi:volume-medium
+
+  - platform: template
+    sensors:
+      echo_dot_cozinha_volume:
+        value_template: >
+          {% if is_state('media_player.echo_dot_cozinha', 'on')  %}
+            {{ (state_attr('media_player.echo_dot_cozinha', 'volume_level') * 100) | int }}
+          {% endif %}
+        friendly_name: Receiver Volume Level
+        icon_template: mdi:volume-medium
+
+  - platform: template
+    sensors:
+      echo_dot_quarto_volume:
+        value_template: >
+          {% if is_state('media_player.echo_dot_quarto', 'on')  %}
+            {{ (state_attr('media_player.echo_dot_quarto', 'volume_level') * 100) | int }}
+          {% endif %}
+        friendly_name: Receiver Volume Level
+        icon_template: mdi:volume-medium
+
+  - platform: template
+    sensors:
+      home_group_volume:
+        value_template: >
+          {% if is_state('media_player.home_group', 'on')  %}
+            {{ (state_attr('media_player.home_group', 'volume_level') * 100) | int }}
+          {% endif %}
+        friendly_name: Receiver Volume Level
+        icon_template: mdi:volume-medium
+
+
+#Comercial
+
+  - platform: scrape
+    resource: https://radiocomercial.iol.pt/nowplaying.xml
+    name: Artista
+    select: "DB_LEAD_ARTIST_NAME"
+
+  - platform: scrape
+    resource: https://radiocomercial.iol.pt/nowplaying.xml
+    name: Música
+    select: "DB_SONG_NAME"
+
+  - platform: scrape
+    resource: https://radiocomercial.iol.pt/nowplaying.xml
+    name: Album
+    select: "DB_ALBUM_NAME"
+
+  - platform: scrape
+    resource: https://radiocomercial.iol.pt/nowplaying.xml
+    name: Imagem do album
+    select: "DB_ALBUM_IMAGE"
+
+  - platform: scrape
+    resource: https://radiocomercial.iol.pt/nowplaying.xml
+    name: Informação
+    select: "DB_ALT_COVER_IMAGE"
+
+  - platform: scrape
+    resource: https://radiocomercial.iol.pt/nowplaying.xml
+    name: Titulos
+    select: "DB_DALET_TITLE_NAME"
+
+  - platform: scrape
+    resource: https://radiocomercial.iol.pt/nowplaying.xml
+    name: Locutor comercial
+    select: "NAME"
+
+  - platform: scrape
+    resource: https://radiocomercial.iol.pt/nowplaying.xml
+    name: Imagem Lucotor comercial
+    select: "IMAGE"
+
+  - platform: scrape
+    resource: https://radiocomercial.iol.pt/nowplaying.xml
+    name: show name comercial
+    select: "SHOW_NAME"
+
+#m80
+
+  - platform: scrape
+    resource: https://m80.iol.pt/nowplaying.xml
+    name: Música m80
+    select: "DB_SONG_NAME"
+
+  - platform: scrape
+    resource: https://m80.iol.pt/nowplaying.xml
+    name: Album m80
+    select: "DB_ALBUM_NAME"
+
+  - platform: scrape
+    resource: https://m80.iol.pt/nowplaying.xml
+    name: Artista m80
+    select: "DB_LEAD_ARTIST_NAME"
+
+  - platform: scrape
+    resource: https://m80.iol.pt/nowplaying.xml
+    name: Imagem do album m80
+    select: "DB_ALBUM_IMAGE"
+
+  - platform: scrape
+    resource: https://m80.iol.pt/nowplaying.xml
+    name: Informação m80
+    select: "DB_ALT_COVER_IMAGE"
+
+  - platform: scrape
+    resource: https://m80.iol.pt/nowplaying.xml
+    name: Titulos m80
+    select: "DB_DALET_TITLE_NAME"
+
+  - platform: scrape
+    resource: https://m80.iol.pt/nowplaying.xml
+    name: Informação M80
+    select: "IMAGE_FILENAME"
+
+  - platform: scrape
+    resource: https://m80.iol.pt/nowplaying.xml
+    name: M80
+    select: "NAME"
+
+#vodafone
+
+  - platform: scrape
+    resource: https://vodafone.fm/nowplaying.xml
+    name: Música vodafone
+    select: "DB_SONG_NAME"
+
+  - platform: scrape
+    resource: https://vodafone.fm/nowplaying.xml
+    name: Album vodafone
+    select: "DB_ALBUM_NAME"
+
+  - platform: scrape
+    resource: https://vodafone.fm/nowplaying.xml
+    name: Artista vodafone
+    select: "DB_LEAD_ARTIST_NAME"
+
+  - platform: scrape
+    resource: https://vodafone.fm/nowplaying.xml
+    name: Imagem do album vodafone
+    select: "DB_ALBUM_IMAGE"
+
+  - platform: scrape
+    resource: https://vodafone.fm/nowplaying.xml
+    name: Informação vodafone
+    select: "DB_ALT_COVER_IMAGE"
+
+  - platform: scrape
+    resource: https://vodafone.fm/nowplaying.xml
+    name: Titulos vodafone
+    select: "DB_DALET_TITLE_NAME"
+
+  - platform: scrape
+    resource: https://vodafone.fm/nowplaying.xml
+    name: Informação vodafone
+    select: "IMAGE_FILENAME"
+
+  - platform: scrape
+    resource: https://vodafone.fm/nowplaying.xml
+    name: Vodafone
+    select: "NAME"
+
+#RFM
+
+  - platform: command_line
+    name: RFM Album
+    command: "python3 /config/python_scripts/radio_details.py name"
+
+  - platform: command_line
+    name: Artista rfm
+    command: "python3 /config/python_scripts/radio_details.py artist"
+
+  - platform: command_line
+    name: Informação RFM
+    command: "python3 /config/python_scripts/radio_details.py capa"
+
+#CIDADE FM     
+
+  - platform: scrape
+    resource: https://cidade.iol.pt/nowplaying.xml
+    name: Artista cidadefm
+    select: "DB_LEAD_ARTIST_NAME"
+
+  - platform: scrape
+    resource: https://cidade.iol.pt/nowplaying.xml
+    name: Música cidadefm
+    select: "DB_SONG_NAME"
+
+  - platform: scrape
+    resource: https://cidade.iol.pt/nowplaying.xml
+    name: Album cidadefm
+    select: "DB_ALBUM_NAME"
+
+  - platform: scrape
+    resource: https://cidade.iol.pt/nowplaying.xml
+    name: Imagem do album cidadefm
+    select: "DB_ALBUM_IMAGE"
+
+  - platform: scrape
+    resource: https://cidade.iol.pt/nowplaying.xml
+    name: Informação cidadefm
+    select: "DB_ALT_COVER_IMAGE"
+
+  - platform: scrape
+    resource: https://cidade.iol.pt/nowplaying.xml
+    name: Titulos cidadefm
+    select: "DB_DALET_TITLE_NAME"
+
+  - platform: scrape
+    resource: https://cidade.iol.pt/nowplaying.xml
+    name: Locutor comercial cidadefm
+    select: "NAME"
+
+  - platform: scrape
+    resource: https://cidade.iol.pt/nowplaying.xml
+    name: Imagem Lucotor comercial cidadefm
+    select: "IMAGE"
+
+  - platform: scrape
+    resource: https://cidade.iol.pt/nowplaying.xml
+    name: show name comercial cidadefm
+    select: "SHOW_NAME"
+
+#TSF Radio Noticias     
+
+  - platform: template
+    sensors:
+      tsf_geral:
+        friendly_name: TSF Geral
+        value_template: "Sem Informação"
+    
+  - platform: scrape
+    resource: https://www.tsf.pt/emdirecto.html
+    name: TSF Album Cover
+    select: "DB_ALBUM_IMAGE"
+    value_template: >
+      https://cdn.worldvectorlogo.com/logos/tsf.svg
+
+#Mega Hits
+
+  - platform: command_line
+    name: MegaHits Artist
+    command: "python3 /config/python_scripts/radio_details_megahits.py artist"
+    
+  - platform: command_line
+    name: Megahits Music
+    command: "python3 /config/python_scripts/radio_details_megahits.py name"
+
+  - platform: command_line
+    name: MegaHits Album Cover
+    command: "python3 /config/python_scripts/radio_details_megahits.py fundoxl"
+
+  - platform: scrape
+    resource: https://megahits.sapo.pt/ouviremissao/Zm53OHFrRVVldFRwZllCYUdaa2NOdzY0WnZ0Zm42VXl4L0lyQ0N2TU1uRT0
+    name: Megahits Show Name
+    select: ".play-text-1"
+    value_template: '{{ value }}'
+    
+  - platform: template
+    sensors: 
+      megahits_album:
+        value_template: >
+          Sem Informação
+
+#Nova Era
+   
+  - platform: scrape
+    resource: https://radionovaera.pt/ne-player/soap.php
+    name: Nova Era Artist
+    select: "#martist"
+    value_template: '{{ value }}'
+    
+  - platform: scrape
+    resource: https://radionovaera.pt/ne-player/soap.php
+    name: Nova Era Music
+    select: "#mtitle"
+    value_template: '{{ value }}' 
+
+  - platform: template
+    sensors:
+          
+      nova_era_show_name:
+        value_template: >
+          {% if is_state('sensor.day_of_the_week', 'Saturday') %}
+            {{ states('sensor.nova_era_anim_name_saturday') }}
+          {% elif is_state('sensor.day_of_the_week', 'Sunday') %} 
+            {{ states('sensor.nova_era_anim_name_sunday') }}
+          {% else %}
+            {{ states('sensor.nova_era_anim_name_week') }}
+          {% endif %}          
+          
+      nova_era_album:
+        value_template: >
+          Sem Informação   
+          
+  - platform: scrape
+    resource: https://radionovaera.pt/ne-player/soap.php
+    name: Nova Era Album Cover
+    select: "title"
+    value_template: >
+      {% if is_state('sensor.nova_era_album_cover', '') %}
+        https://www.radionovaera.pt/wp-content/uploads/2016/09/geral-02-1024x378.jpg 
+      {% else %}
+        https://www.radionovaera.pt/wp-content/uploads/2016/09/geral-02-1024x378.jpg 
+      {% endif %}
+      
+  - platform: scrape
+    resource: https://www.radionovaera.pt/programacao/
+    name: Nova Era Radio Name
+    select: ".top-info"
+    value_template: '{{ value }}'
+
+###############################################################################
+#                                                                             #
+#                      C A M E R A S  C O M E R C I A L                       #
+#                                                                             #
+###############################################################################
+camera:
+
+#comercial
+
+  - platform: generic
+    name: Comercial
+    still_image_url: '{% if states.sensor.imagem_do_album.state != "" %}https://radiocomercial.iol.pt/upload/album/{{ states.sensor.imagem_do_album.state }}{% else %}{% if states.sensor.informacao.state != "" %}https://radiocomercial.iol.pt/{{ states.sensor.informacao.state }}{% else %}https://radiocomercial.iol.pt/upload/c/comercial.jpg{% endif %}{% endif %}'
+
+#M80
+
+  - platform: generic
+    name: M80
+    still_image_url: '{% if states.sensor.imagem_do_album_m80.state != "" %}https://m80.iol.pt/upload/album/{{ states.sensor.imagem_do_album_m80.state }}{% else %}{% if states.sensor.informacao_m80.state != "" %}https://m80.iol.pt/{{ states.sensor.informacao_m80.state }}{% else %}https://m80.iol.pt/upload/m/m80.png{% endif %}{% endif %}'
+
+#vodafone
+
+  - platform: generic
+    name: Vodafone
+    still_image_url: '{% if states.sensor.imagem_do_album_vodafone.state != "" %}https://vodafone.fm/upload/album/{{ states.sensor.imagem_do_album_vodafone.state }}{% else %}{% if states.sensor.informacao_vodafone.state != "" %}https://vodafone.fm/{{ states.sensor.informacao_vodafone.state }}{% else %}https://vodafone.fm/images/nocover.png{% endif %}{% endif %}'
+
+#RFM
+
+  - platform: generic
+    name: RFM
+    still_image_url: '{% if states.sensor.informacao_rfm.state != "" %}https://cdnimages01.azureedge.net/rfm/{{ states.sensor.informacao_rfm.state }}{% else %}https://cdnimages01.azureedge.net/rfm/default300x3002255339a_117162246.jpg{% endif %}'
+
+#Cidade FM
+
+  - platform: generic
+    name: CidadeFM
+    still_image_url: '{% if states.sensor.imagem_do_album_cidadefm.state != "" %}https://cidade.iol.pt/upload/album/{{ states.sensor.imagem_do_album_cidadefm.state }}{% else %}{% if states.sensor.informacao_cidadefm.state != "" %}https://cidade.iol.pt/{{ states.sensor.informacao_cidadefm.state }}{% else %}https://cidade.iol.pt/upload/c/cidade.jpg{% endif %}{% endif %}'
+
+#TSF
+
+  - platform: generic
+    name: TSFRadioNoticias
+    still_image_url: '{% if states.sensor.imagem_do_album_TSF.state != "" %}https://static.globalnoticias.pt/tsf/{{ states.sensor.imagem_do_album_TSF.state }}{% else %}{% if states.sensor.informacao_TSF.state != "" %}https://static.globalnoticias.pt/tsf/{{ states.sensor.informacao_TSF.state }}{% else %}https://cdn.worldvectorlogo.com/logos/tsf.svg{% endif %}{% endif %}'
+
+#MegaHits
+
+  - platform: generic
+    name: MegaHits
+    still_image_url: '{% if states.sensor.megahits_album_cover.state != "" %}https://cdnimages01.azureedge.net/megahits/{{ states.sensor.megahits_album_cover.state }}{% else %}https://cdnimages01.azureedge.net/megahits/mega7141b648_app_square.png{% endif %}'
+
+#Nova Era
+
+  - platform: generic
+    name: NovaEra
+    still_image_url: '{% if states.sensor.nova_era_album_cover.state != "" %}https://www.radionovaera.pt/wp-content/uploads/{{ states.sensor.nova_era_album_cover.state }}{% else %}https://www.radionovaera.pt/wp-content/uploads/2016/09/geral-02-1024x378.jpg{% endif %}'
+
+###############################################################################
+#                                                                             #
+#                           A U T O M A Ç Õ E S                               #
+#                                                                             #
+###############################################################################   
+automation:
+
+  - alias: Ligar boolean som home_group
+    initial_state: true
+    trigger:
+      - platform: state
+        entity_id: media_player.home_group
+        to: "playing"
+    action:
+      - service: input_boolean.turn_on
+        entity_id: input_boolean.home_group
+
+  - alias: Desligar boolean som home_group
+    initial_state: true
+    trigger:
+      - platform: state
+        entity_id: media_player.home_group
+        to: "off"
+    action:
+      - service: input_boolean.turn_off
+        entity_id: input_boolean.home_group
+
+
+#  - alias: Ligar rádio
+#    initial_state: false
+#    trigger:
+#      - platform: template
+#        value_template: "{{ states('sensor.time') == (states.input_datetime.radio_on.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+#    condition:
+#      condition: and
+#      conditions:
+#      - condition: state
+#        entity_id: input_boolean.ligar_radio
+#        state: 'on'
+#      - condition: state
+#        entity_id: person.bruno
+#        state: home
+#      - condition: state
+#        entity_id: person.armanda
+#        state: not_home
+#      - condition: state
+#        entity_id: 'binary_sensor.workday_sensor'
+#        state: 'on'
+#    action:
+#      - service: media_player.volume_set
+#        data:
+#          entity_id: media_player.home_group
+#          volume_level: '0.15'
+#      -  service: media_player.play_media
+#         data_template:
+#          entity_id: media_player.home_group
+#          media_content_id: Radio Comercial
+#          media_content_type: TUNEIN
+
+
+#  - alias: Desligar rádio na ausencia
+#    initial_state: false
+#    trigger:
+#      - platform: state
+#        entity_id: device_tracker.bruno_melo
+#        from: home
+#        to: not_home
+#    action:
+#      - service: script.turn_on
+#        entity_id: 
+#          - script.radio_stop_echo_dot_sala
+#          - script.radio_stop_echo_dot_cozinha
+
+#zigbee botao ikea controlo volume
+
+#  - alias: Diminuir som echo_dot_sala
+#    initial_state: true
+#    trigger: 
+#      platform: state
+#      entity_id: sensor.0x000d6ffffebcd992_click
+#      to: 'off'
+#    action:
+#      - service: media_player.volume_set
+#        entity_id: media_player.echo_dot_sala
+#        data_template:
+#          volume_level: '{{ states.media_player.echo_dot_sala.attributes.volume_level - 0.06 }}'
+
+#  - alias: Aumentar som echo_dot_sala
+#    initial_state: true
+#    trigger: 
+#      platform: state
+#      entity_id: sensor.0x000d6ffffebcd992_click
+#      to: 'on'
+#    action:
+#      - service: media_player.volume_set
+#        entity_id: media_player.echo_dot_sala
+#        data_template:
+#          volume_level: '{{ states.media_player.echo_dot_sala.attributes.volume_level + 0.06 }}'
+
+
+#  - alias: Diminuir som echo_dot_cozinha
+#    initial_state: true
+#    trigger: 
+#      platform: state
+#      entity_id: sensor.0x000d6ffffebcd992_click
+#      to: 'off'
+#    action:
+#      - service: media_player.volume_set
+#        entity_id: media_player.echo_dot_cozinha
+#        data_template:
+#          volume_level: '{{ states.media_player.echo_dot_cozinha.attributes.volume_level - 0.06 }}'
+
+#  - alias: Aumentar som echo_dot_cozinha
+#    initial_state: true
+#    trigger: 
+#      platform: state
+#      entity_id: sensor.0x000d6ffffebcd992_click
+#      to: 'on'
+#    action:
+#      - service: media_player.volume_set
+#        entity_id: media_player.echo_dot_cozinha
+#        data_template:
+#          volume_level: '{{ states.media_player.echo_dot_cozinha.attributes.volume_level + 0.06 }}'
+
+#  - alias: Ligar radio de manha
+#    initial_state: true
+#    trigger:
+#      - platform: time
+#        at: "07:15:00"
+#    condition:
+#      - condition: state
+#        entity_id: 'binary_sensor.workday_sensor'
+#        state: 'on'
+#    action:
+#      - service: media_player.volume_set
+#        data:
+#          entity_id: media_player.echo_dot_sala
+#          volume_level: '0.30'
+#      -  service: media_player.play_media
+#         data_template:
+#          entity_id: media_player.echo_dot_sala
+#          media_content_id: Radio Comercial
+#          media_content_type: TUNEIN
+
+  - alias: "echo_dot_sala set Volume"
+    initial_state: 'on'
+    trigger:
+      platform: state
+      entity_id: input_number.echo_dot_sala_volume
+    action:
+      - service: media_player.volume_set
+        data_template:
+          entity_id: media_player.echo_dot_sala
+          volume_level: >
+            {{states('input_number.echo_dot_sala_volume') | int / 100}}
+
+  - alias: "echo_dot_sala Update Volume Slider"
+    initial_state: 'on'
+    trigger:
+      - platform: state
+        entity_id: sensor.echo_dot_sala_volume
+      - platform: homeassistant
+        event: start
+    condition:
+      condition: state
+      entity_id: media_player.echo_dot_sala # receiver must be on to set the volume, without this would throw error on startup
+      state: 'on'
+    action:
+      - delay:
+          seconds: 3
+      - service: input_number.set_value
+        data_template:
+          entity_id: input_number.echo_dot_sala_volume
+          value: '{{ trigger.to_state.state }}'
+
+
+  - alias: "echo_dot_cozinha set Volume"
+    initial_state: 'on'
+    trigger:
+      platform: state
+      entity_id: input_number.echo_dot_cozinha_volume
+    action:
+      - service: media_player.volume_set
+        data_template:
+          entity_id: media_player.echo_dot_cozinha
+          volume_level: >
+            {{states('input_number.echo_dot_cozinha_volume') | int / 100}}
+
+  - alias: "echo_dot_cozinha Update Volume Slider"
+    initial_state: 'on'
+    trigger:
+      - platform: state
+        entity_id: sensor.echo_dot_cozinha_volume
+      - platform: homeassistant
+        event: start
+    condition:
+      condition: state
+      entity_id: media_player.echo_dot_cozinha # receiver must be on to set the volume, without this would throw error on startup
+      state: 'on'
+    action:
+      - delay:
+          seconds: 3
+      - service: input_number.set_value
+        data_template:
+          entity_id: input_number.echo_dot_cozinha_volume
+          value: '{{ trigger.to_state.state }}'
+
+  - alias: "home_group set Volume"
+    initial_state: 'on'
+    trigger:
+      platform: state
+      entity_id: input_number.home_group_volume
+    action:
+      - service: media_player.volume_set
+        data_template:
+          entity_id: media_player.home_group
+          volume_level: >
+            {{states('input_number.home_group_volume') | int / 100}}
+
+  - alias: "home_group Update Volume Slider"
+    initial_state: 'on'
+    trigger:
+      - platform: state
+        entity_id: sensor.home_group_volume
+      - platform: homeassistant
+        event: start
+    condition:
+      condition: state
+      entity_id: media_player.home_group # receiver must be on to set the volume, without this would throw error on startup
+      state: 'on'
+    action:
+      - delay:
+          seconds: 3
+      - service: input_number.set_value
+        data_template:
+          entity_id: input_number.home_group_volume
+          value: '{{ trigger.to_state.state }}'
+
+###############################################################################
+#                                                                             #
+#                         G R O U P S                                         #
+#                                                                             #
+###############################################################################      
+group:
+
+  home_group:
+    name: Home Group
+    entities:
+      - media_player.echo_dot_sala
+      - media_player.echo_dot_cozinha  
+      - media_player.echo_dot_quarto
+
+#  comercial_testes:
+#    name: Cameras imagens comercial
+#    entities:
+#      - camera.album_comercial
+#      - camera.comercial_informacao
+#      - camera.informacao_comercial
