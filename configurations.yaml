@@ -1,0 +1,7 @@
+downloader:
+  download_dir: www
+
+homeassistant:
+  packages: !include_dir_named packages
+
+python_script:
