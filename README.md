@@ -3,11 +3,11 @@ Play various Portuguese Radios on Your Alexas
 
 ### ADDONS necessários ###
 A partir do Supervisor – Loja de Addons, instalar: 
-File Editor 
+- File Editor 
 
 Depois a partir do HACS instalar os seguintes Addons no Frontend:
-Mini média player
-Button Card
+- Mini média player
+- Button Card
 
 ### Texto a adicionar ao “configurations.yaml” ###
 downloader:
@@ -25,15 +25,15 @@ Dentro da pasta config, criar as seguintes pastas:
 “www”
 
 ### Dentro da pasta “packages” ###
-> Colocar o ficheiro “radio.yaml”  editar este ficheiro e alterar o nome do média player para o nome que o vosso tem no home assistant, a parte a vermelho no seguinte texto (podem usar a procura para não escapar nenhum):
+- Colocar o ficheiro “radio.yaml”  editar este ficheiro e alterar o nome do média player para o nome que o vosso tem no home assistant, a parte a vermelho no seguinte texto (podem usar a procura para não escapar nenhum):
 entity_id: media_player.echo_dot_sala
 
 ### Dentro da pasta “python_scripts” colocar os ficheiros: ###
-> “radio_details_megahits.py” e “radio_details.py”
+- “radio_details_megahits.py” e “radio_details.py”
 
 ### Dentro da pasta “www” ###
-> Colocar a pasta “rádios logo” com os ficheiros incluídos
-> Criar a pasta “downloads”
+- Colocar a pasta “rádios logo” com os ficheiros incluídos
+- Criar a pasta “downloads”
 
 Depois destes procedimentos, vamos verificar a configuração do home assistant para verificar se está tudo OK e reiniciar.
 Por fim, só falta criar o cartão na “Visão Geral (Lovelace)”.
