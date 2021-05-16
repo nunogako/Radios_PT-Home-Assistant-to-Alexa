@@ -5,7 +5,7 @@ Play various Portuguese Radios on Your Alexas
 Original idea:
 https://github.com/maxcalavera81/radios
 
-Other ideas and files:
+Another idea and files:
 https://github.com/MauricioXavier13/radio_pt
 
 Special thanks to the Authors, Bruno and Maurício and also to Pedro Fernandes for their support in the construction of some files.
