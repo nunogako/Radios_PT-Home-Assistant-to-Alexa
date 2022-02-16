@@ -120,7 +120,7 @@ script:
       - service: media_player.play_media
         data_template:
           entity_id: media_player.echo_dot_sala
-          media_content_id: Rádio Vodafone.fm
+          media_content_id: Vodafone.fm
           media_content_type: TUNEIN
 
   vodafone_echo_dot_cozinha:
@@ -133,7 +133,7 @@ script:
       - service: media_player.play_media
         data_template:
           entity_id: media_player.echo_dot_cozinha
-          media_content_id: Rádio Vodafone.fm
+          media_content_id: Vodafone.fm
           media_content_type: TUNEIN
 
   vodafone_echo_dot_quarto:
@@ -146,7 +146,7 @@ script:
       - service: media_player.play_media
         data_template:
           entity_id: media_player.echo_dot_quarto
-          media_content_id: Rádio Vodafone.fm
+          media_content_id: Vodafone.fm
           media_content_type: TUNEIN
 
   vodafone_home_group:
@@ -159,7 +159,7 @@ script:
       - service: media_player.play_media
         data_template:
           entity_id: media_player.home_group
-          media_content_id: Rádio Vodafone.fm
+          media_content_id: Vodafone.fm
           media_content_type: TUNEIN
 
 #rfm
@@ -228,7 +228,7 @@ script:
       - service: media_player.play_media
         data_template:
           entity_id: media_player.echo_dot_sala
-          media_content_id: cidade FM
+          media_content_id: Cidade fm 916
           media_content_type: 'TUNEIN'   
 
 #TSF
@@ -258,7 +258,7 @@ script:
       - service: media_player.play_media
         data_template:
           entity_id: media_player.echo_dot_sala
-          media_content_id: Mega-Hits
+          media_content_id: Mega Hits
           media_content_type: 'TUNEIN' 
 
 #Nova Era
@@ -273,7 +273,7 @@ script:
       - service: media_player.play_media
         data_template:
           entity_id: media_player.echo_dot_sala
-          media_content_id: Radio-Nova-Era
+          media_content_id: Nova Era s25161
           media_content_type: 'TUNEIN' 
 
   radio_stop_echo_dot_sala:
